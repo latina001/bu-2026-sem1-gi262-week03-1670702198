@@ -3,7 +3,7 @@ using UnityEngine;
 namespace Assignment.StudentSolution
 {
     
-    public class NPC
+    public class NPC :Entity
     {
 
         string dialogue;

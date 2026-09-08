@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace Assignment.StudentSolution
 {
-    public class Player
+    public class Player : Entity
     {
         public int scroe;
         private Item[] items;
