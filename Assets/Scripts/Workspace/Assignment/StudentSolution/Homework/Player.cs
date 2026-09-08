@@ -4,14 +4,14 @@ namespace Assignment.StudentSolution
 {
     public class Player : Entity
     {
-        public int scroe;
+        public int score;
         private Item[] items;
 
-        public void Collectltem(Item item) { 
+        public void CollectItem(Item item) { 
         
         }
 
-        protected void Level()
+        protected virtual void LevelUp()
         {
 
         }

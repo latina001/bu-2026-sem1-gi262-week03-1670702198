@@ -6,10 +6,10 @@ namespace Assignment.StudentSolution
     public class NPC :Entity
     {
 
-        string dialogue;
+        public string dialogue;
         private bool isFriendly;
 
-        public virtual void Intreract(Player player)
+        public virtual void Interact(Player player)
         {
 
         }
